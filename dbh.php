@@ -6,7 +6,12 @@ $dbpass = "";
 $dBName = "subwoofer";
 
 
-$conn = mysqli_connect($serverName,$DBUserName,$dBName);
+$conn = mysqli_connect(
+$serverName,
+$DBUserName,
+$dbpass, 
+$dBName
+);
 
 mysqli_set_charset($conn, "utf8mb4");
 
