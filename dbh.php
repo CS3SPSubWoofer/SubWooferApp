@@ -1,7 +1,7 @@
 <?php
 
-$serverName = "";
-$DBUserName = "localhost";
+$serverName = "localhost";
+$DBUserName = "root";
 $dbpass = "";
 $dBName = "subwoofer";
 
