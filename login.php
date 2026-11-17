@@ -208,20 +208,10 @@ if (isset($_SESSION['username'])) {
                     <li><a href="contact.php" class="hover:text-white">My Playlist</a></li>
                 </ul>
                 </div>
-
-                <!-- Contact -->
-                <div>
-                <h4 class="text-white font-semibold mb-3">Contact</h4>
-                <ul class="space-y-2 text-sm">
-                    <li>hello@luxehome.com</li>
-                    <li>1-800-LUXE-HOME</li>
-                    <li>Mon–Fri: 9am–6pm EST</li>
-                </ul>
-                </div>
             </div>
 
             <div class="border-t border-gray-700 mt-8 pt-4 text-center text-sm text-gray-400">
-                © 2025 LuxeHome. All rights reserved.
+                © 2026 SubWoofer. All rights reserved.
                 <a href="#" class="hover:text-white ml-2">Privacy Policy</a> |
                 <a href="#" class="hover:text-white ml-2">Terms of Service</a>
             </div>
@@ -229,6 +219,5 @@ if (isset($_SESSION['username'])) {
     </footer>
 
     <script src="js/script.js"></script>
-    <script src="js/accessibility.js"></script>
 </body>
 </html>
