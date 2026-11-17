@@ -78,19 +78,18 @@ if (isset($_SESSION['username'])) {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-4">
                 <a href="index.php" class="flex items-center space-x-3">
-                    <img src="images/image.png" alt="LuxeHome logo" class="logo-img">
                     <div>
-                        <h1 class="text-xl font-bold text-gray-900">LuxeHome</h1>
-                        <p class="text-xs text-gray-500">Smart Living Elevated</p>
+                        <h1 class="text-xl font-bold text-gray-900">SubWoofer</h1>
+                        <p class="text-xs text-gray-500">Your very own playlist hub</p>
                     </div>
                 </a>
 
                 <!-- Navigation -->
                 <nav class="hidden md:flex space-x-8">
                     <a href="index.php" class="nav-link">Home</a>
-                    <a href="products.php" class="nav-link">Shop</a>
+                    <a href="products.php" class="nav-link">Discover</a>
                     <a href="about_us.php" class="nav-link">About us</a>
-                    <a href="contact.php" class="nav-link">Contact</a>
+                    <a href="contact.php" class="nav-link">My Playlist</a>
                 </nav>
 
                 <!-- Actions -->
