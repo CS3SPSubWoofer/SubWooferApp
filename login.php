@@ -1,4 +1,5 @@
 <?php
+require_once(dbh.php)
 session_start();
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
@@ -132,7 +133,7 @@ if (isset($_SESSION['username'])) {
 
     <!-- Main Content -->
     <section id="main-content" class="login-section">
-        <h2 class="title">Welcome to LuxeHome</h2>
+        <h2 class="title">Welcome to SubWoofer</h2>
         <p class="subtitle">Choose How To Login</p>
     
         <div class="login-container">
