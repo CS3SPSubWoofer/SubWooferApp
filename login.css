@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #3b6d5c;
+    padding: 0%;
+}
+
+.login-section {
+    text-align: center;
+    padding: 40px 0;
+    color: #0c0c0c;
+}
+
+.title {
+    font-size: 33px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.subtitle {
+    font-size: 17px;
+    margin-bottom: 30px;
+    color: #f6f2f2;
+}
+
+/* Side-by-side container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+       align-items: flex-start; 
+}
+
+/* Login boxes */
+.login-box {
+    background: rgb(255, 255, 255);
+    width: 300px;
+    text-align: left;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 12px;
+}
+
+
+.login-box h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+}
+
+.login-btn {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background: #216f3f;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: #1b5a34;
+}
+
+.login-btn.admin {
+    background: #444;
+}
+
+.login-btn.admin:hover {
+    background: #222;
+}
+
+
+.text-center {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.forgot {
+    font-size: 14px;
+    color: #216f3f;
+    text-decoration: none;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.forgot.text{
+    margin-top: 8px;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.forgot-text a {
+    color: #216f3f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.forgot.text a:hover {
+    text-decoration: underline;
+    
+}
+
+.alternative-option {
+        margin-top: 8px;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+ .alternative-option a {
+        color: #216f3f;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+.alternative-option a:hover {
+        text-decoration: underline;
+    }  
+
+.hidden {
+    display: none;
+}
+
+.reset-box {
+
+     margin-top: 15px;
+    padding: 10px;
+     background: #e3f7f8;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+   
+}
+
+.reset-message {
+    margin-top: 10px;
+    color: #0f766e;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.reset-btn:hover {
+    background: #0d5f57;
+}
+
+.reset-btn {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #0f766e;
+    color: white;
+    border: none;
+}
