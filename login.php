@@ -11,7 +11,7 @@ if (isset($_SESSION['username'])) {
   $username = $_SESSION['username'];
 }
 ?>
-
+<!--comment-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
