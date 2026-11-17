@@ -17,12 +17,9 @@ if (isset($_SESSION['username'])) {
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login | LuxeHome</title>
-    <link rel="icon" href="images/image.png">
+    <title>Login | SubWoofer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/accessibility.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .logo-img {
