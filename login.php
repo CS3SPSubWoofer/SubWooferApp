@@ -184,25 +184,18 @@ if (isset($_SESSION['username'])) {
     <footer class="bg-gray-900 text-gray-300 py-10">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Brand -->
+                <!-- Footer -->
                 <div>
                 <div class="flex items-center space-x-3 mb-4">
-                    <img src="images/image.png" alt="LuxeHome logo" class="logo-img">
                     <div>
-                    <h3 class="text-lg font-bold text-white">LuxeHome</h3>
-                    <p class="text-sm text-gray-400">Smart Living Elevated</p>
+                    <h3 class="text-lg font-bold text-white">SubWoofer</h3>
+                    <p class="text-sm text-gray-400">Playlist Hub</p>
                     </div>
                 </div>
                 <p class="text-gray-400 text-sm mb-4">
-                    Experience the pinnacle of intelligent living with our curated collection of premium smart home technology
-                    designed for modern lifestyles.
+                    Build your own playlists and share them with your friends. You can like, comment and collaborate on each others playlists, 
+                    Have fun PlayListing!
                 </p>
-                <div class="flex space-x-4">
-                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
-                </div>
                 </div>
 
                 <!-- Quick Links -->
@@ -210,9 +203,9 @@ if (isset($_SESSION['username'])) {
                 <h4 class="text-white font-semibold mb-3">Quick Links</h4>
                 <ul class="space-y-2 text-sm">
                     <li><a href="index.php" class="hover:text-white">Home</a></li>
-                    <li><a href="products.php" class="hover:text-white">Shop</a></li>
+                    <li><a href="products.php" class="hover:text-white">Discover</a></li>
                     <li><a href="about_us.php" class="hover:text-white">About us</a></li>
-                    <li><a href="contact.php" class="hover:text-white">Contact</a></li>
+                    <li><a href="contact.php" class="hover:text-white">My Playlist</a></li>
                 </ul>
                 </div>
 
